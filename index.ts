@@ -8,3 +8,4 @@ export type { Remap } from "./re-map";
 export type { OnlyRequired } from "./required";
 export { createElement } from "./dom";
 export type { Curried } from "./curry";
+export type { Split, AllOrNone, ExactlyOne } from "./split";
