@@ -1,5 +1,3 @@
-import { User } from "./types";
-
 export type FormatBracketKeys<T extends string> =
   T extends `${string}{${infer Key}}${infer Rest}`
     ? Key | FormatBracketKeys<Rest>

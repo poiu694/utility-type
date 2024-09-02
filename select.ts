@@ -1,4 +1,4 @@
-import { User } from "./types";
+import type { User } from "./types";
 
 export type Select<O, T> = {
   [K in keyof O as O[K] extends T | undefined ? K : never]: O[K];
