@@ -6,3 +6,5 @@ export type { Trim } from "./trim";
 export type { SelectPartial, SetOptional } from "./partial";
 export type { Remap } from "./re-map";
 export type { OnlyRequired } from "./required";
+export { createElement } from "./dom";
+export type { Curried } from "./curry";
